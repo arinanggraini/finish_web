@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--internal css-->
+    <style>
+        p {
+            color: rgb(0, 0, 0);
+        }
+    </style>
+
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                I,m Ayinnn
+            </div>
+
+            <div class="nav-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#about">about</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Artikel 1 -->
+        <article id="about">
+            <div class="image">
+                <img src="Hand coding-rafiki.svg" alt="gambar orang sukses">
+            </div>
+
+            <div class="content1">
+                <h3>Hi, I'm a </h3>
+                <h2>Arin Anggraini</h2>
+                <p>Nama Saya Ayinnn Saya Siswa SMK Krian 1 Sidoarjo IIV Rekayasa Perangkat Lunak.Saya Memiliki Pribadi Yang Santun Dapat Bekerja Dengan Tim Dan Mampu Bekerja Dalam Tekanan
+                    Motivasi saya :
+                    "Tidak ada masa lalu,hanya ada apa yang terjadi; hanya ada apa yang akan segera terjadi."
+                </p>
+
+                <button>
+                    <a href="">Download CV</a>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article id="skill">
+            <h2>skills</h2>
+            <!-- Skill 1 -->
+            <div class="content2">
+            <section class="card">
+                <img src="wira.jpg" alt="gambar coding" width="20%">
+
+                <h3>Wirausaha</h3>
+            </section>
+
+            <!-- Skill 2 -->
+            <section class="card">
+                <img src="ortu.jpg" alt="gambar coding" width="20%">
+
+                <h3>Membanggakan Ibu</h3>
+            </section>
+
+            <!-- Skill 3 -->
+            <section class="card">
+                <img src="sarjana.jpg" alt="gambar coding" width="20%">
+
+                <h3>Sarjana</h3>
+            </section>
+            </div>
+        </article>
+
+        <form id="contact">
+            <fieldset>
+                <h2>Kontak Saya</h2>
+                <p> "Tidak ada masa lalu,hanya ada apa yang terjadi; hanya ada apa yang akan segera terjadi." </p>
+
+                <label for="nama">Nama :</label><br>
+                <input type="text" id="nama"><br>
+                
+                <label for="email">email :</label><br>
+                <input type="email" id="email"><br>
+
+                <label for="pesan">pesan :</label><br>
+                <textarea id="pesan" cols="30" rows="10"></textarea> 
+                <br>
+
+                <button>Kirim</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>Pemrograman Web &copy; Ayinnnn</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
